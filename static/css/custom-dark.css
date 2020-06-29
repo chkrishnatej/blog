@@ -1,0 +1,23 @@
+html.dark body {
+  color: #ddd;
+  background-color: #242426;
+}
+
+html.dark a,
+a:hover {
+  color: #0a84ff;
+}
+
+html.dark blockquote {
+  border-color: #0a84ff;
+}
+
+.highlight pre {
+  background-color: #283142 !important;
+}
+
+
+
+html.dark .gist .gist-file table tbody tr {
+  background-color: #ebebeb;
+} 
