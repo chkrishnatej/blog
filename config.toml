@@ -6,10 +6,10 @@ paginate = 5
 
 copyright = "© Copyright notice"
 
-# pygmentsstyle = "dracula"
-# pygmentsUseClasses = false
-# pygmentscodefences = true
-# pygmentscodefencesguesssyntax = false
+pygmentsstyle = "dracula"
+pygmentsUseClasses = false
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = false
 
 googleAnalytics = "UA-123-45"
 # disqusShortname = "ink-demo"
