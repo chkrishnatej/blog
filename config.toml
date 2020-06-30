@@ -2,7 +2,7 @@ baseURL = "https://krishnatej.dev/"
 languageCode = "en-us"
 title = "Krishna Tej"
 theme = "ink"
-paginate = 5
+paginate = 6
 
 copyright = "© Copyright notice"
 
