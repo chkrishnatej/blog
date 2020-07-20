@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+
+body {
+  font-family: 'Overpass', sans-serif;;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.8em;
+  font-size: 20px;
+}
+
 
 .highlight pre {
   background-color: #282c34 !important;
