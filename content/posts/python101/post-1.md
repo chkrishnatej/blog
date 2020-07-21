@@ -1,6 +1,6 @@
 ---
 title: "Python 101 - Part 1"
-date: "2020-02-11"
+date: "2019-01-11"
 description: "Sample article for Series Part 1"
 tags: [markdown, css, html, themes]
 categories: [themes, syntax]
@@ -21,7 +21,7 @@ The following HTML `<h1>`—`<h6>` elements represent six levels of section head
 ##### H5
 ###### H6
 
-{{< highlight python "linenos=table,linenostart=199">}}
+{{< highlight python>}}
 if name is "krishna":
     print("Grant access")
 {{< /highlight >}}
