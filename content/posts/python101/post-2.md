@@ -2,7 +2,7 @@
 title: "Python 101 - Part 2"
 date: "2019-03-11"
 description: "Sample article for Series Part 2"
-tags: [markdown, css, html, themes]
+tags: [markdown, css, html, themes, zing]
 categories: [themes, syntax]
 series: ["Python 101"]
 ---
