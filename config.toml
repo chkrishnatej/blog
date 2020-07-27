@@ -2,16 +2,16 @@ baseURL = "https://krishnatej.dev/"
 languageCode = "en-us"
 title = "Krishna Tej"
 theme = "ink"
-paginate = 5
+paginate = 6
 
 copyright = "© Copyright notice"
 
-# pygmentsstyle = "dracula"
-# pygmentsUseClasses = false
-# pygmentscodefences = true
-# pygmentscodefencesguesssyntax = false
+pygmentsstyle = "dracula"
+pygmentsUseClasses = false
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = false
 
-googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-173032338-1"
 # disqusShortname = "ink-demo"
 
 [params]

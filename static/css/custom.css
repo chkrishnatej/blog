@@ -1,12 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+
+body {
+  font-family: 'Overpass', sans-serif;;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.8em;
+  font-size: 20px;
+}
+
 
 .highlight pre {
   background-color: #282c34 !important;
 }
 
 .highlight pre code {
-  font-size: medium;
-  font-family: 'Roboto Mono', monospace;
+  font-size: large;
+  line-height: 22px;
+  font-family: 'Inconsolata', monospace;
 }
 
 pre {
@@ -20,12 +31,22 @@ a:hover {
   border-bottom: 2px solid #007aff;
 }
 
-
 .post .tags a {
     border: 1px solid #007aff;
     color: #007aff;
 }
 
+.post .series a {
+  display: inline-block;
+  border: 1px solid #ff9f10;
+  border-radius: 3px;
+  padding: 0px 6px;
+  color: #ff9f10;
+  line-height: 20px;
+  font-size: 0.85em;
+  text-decoration: none;
+  margin: 0 10px 0 0;
+}
 
 ::-moz-selection {
     background: #007aff;
@@ -51,9 +72,16 @@ a:hover {
 	padding: 0.25rem;
 	background: #e9ecef;
 	border-radius: .25rem;
-	font-size: .875em;
+  font-size: .775em;
+  font-family: 'Inconsolata', monospace;
 }
 
 .highlight {
   background-color: aqua;
+}
+
+ul.flat li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 0;
 }
