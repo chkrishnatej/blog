@@ -4,7 +4,7 @@ title = "Krishna Tej"
 theme = "ink"
 paginate = 6
 
-copyright = "© Copyright notice"
+# copyright = "© Copyright notice"
 
 pygmentsstyle = "dracula"
 pygmentsUseClasses = false
