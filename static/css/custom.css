@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 
 body {
   font-family: 'Overpass', sans-serif;;
@@ -84,4 +86,42 @@ ul.flat li {
   display: inline-block;
   list-style: none;
   margin-left: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.post-header .meta .date .day {
+  color: #4a4a4a;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero-big {
+  display: flex;
+  flex-direction: row;
+  max-block-size: 25rem;
+  gap: 25px;
+
+}
+
+.container {
+  max-width: 1000px;
+}
+
+@media (max-width:450px) {
+  .hero-big{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
+
+div > div .hero-big > .day {
+ font-weight: bold;
+}
+
+div.hero-big div span.day{
+  color: #4a4a4a;
+  font-size: smaller;
 }
