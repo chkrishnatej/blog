@@ -94,8 +94,16 @@ h1,h2,h3,h4,h5,h6 {
 
 .post-header .meta .date .day {
   color: #4a4a4a;
+  font-size: 2.1em;
+  line-height: unset;
   font-family: 'Roboto', sans-serif;
 }
+
+.post-header .meta .date {
+  width: unset;
+  margin-inline: 15px;
+}
+
 
 .hero-big {
   display: flex;
