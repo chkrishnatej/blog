@@ -1,0 +1,30 @@
+@import "variables";
+
+// Post Content
+article.content {
+    color: $article-content-color;
+}
+
+.sticky {
+    position: -webkit-sticky; // For Safari Browser
+    position: fixed;
+    right: 5%;
+}
+
+// Shortcode hint colors
+$hint-colors: (
+    info: $info,
+    ok: $success,
+    warning: $warning,
+    danger: $danger,
+) !default;
+
+// {{< hint >}}
+.hint {
+    @each $name, $color in $hint-colors {
+        &.#{$name} {
+            border-left-color: $color;
+            background-color: rgba($color, 0.1);
+        }
+    }
+}
