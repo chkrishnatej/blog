@@ -1,0 +1,20 @@
+<a class="block box" href="{{ .Permalink }}">
+  <h4 class="title is-4">{{ .Title }}</h4>
+  <h6 class="subtitle has-text-grey is-6">{{ .Description }}</h6>
+  {{ if eq .Type "posts" }}
+    <div>
+      <span class="tag is-link">{{ .ReadingTime }} Minutes</span>
+      <span class="tag is-dark">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <span class="tag is-warning">{{ .WordCount }} Words</span>
+    </div>
+  <!-- Add else case for tags, categories and series -->
+  {{ else if eq .Type "tags"}}
+    <div>
+      <span class="tag is-link">articles</span>
+    </div>
+  {{ else }}
+    <div>
+      <span class="tag is-link">Minutes</span>
+    </div>
+  {{ end }}
+</a>

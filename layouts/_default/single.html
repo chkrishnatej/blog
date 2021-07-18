@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="section">
+  <main class="container mb-6">
+    <h1 class="title">{{ .Title }}</h1>
+    <h3 class="subtitle">
+      <span class="tag is-link">{{ .ReadingTime }} Minutes</span>
+      <span class="tag is-dark">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <span class="tag is-warning">{{ .WordCount }} Words</span>
+    </h3>
+
+    <div class="columns">
+      <article class="content column px-6 is-four-fifths">
+        {{ .Content }}
+      </article>
+      <div class="content column sticky">
+        {{ .TableOfContents }}
+      </div>
+    </div>
+    
+  </main>
+
+  <div class="container content">
+    <ul>
+      {{ with .PrevInSection }}
+      <li>Previous Post: <a class="previous" href="{{ .Permalink }}">{{.Title}}</a></li>
+      {{ end }}
+      {{ with .NextInSection }}
+      <li>Next Post: <a class="next" href="{{ .Permalink }}">{{.Title}}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}
