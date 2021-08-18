@@ -1,4 +1,5 @@
 # Krishna Tej Blog
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2b203421-a58a-492d-90bb-184e2d8036b2/deploy-status)](https://app.netlify.com/sites/chkrishnatej/deploys)
 
 This is my personal blog.
 
