@@ -5,6 +5,14 @@ article.content {
     color: $article-content-color;
 }
 
+
+
+@media (min-width: $tablet) {
+    main {
+        padding-inline: 5%;
+    }
+}
+
 .sticky {
     position: -webkit-sticky; // For Safari Browser
     position: fixed;

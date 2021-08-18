@@ -29,11 +29,3 @@ $widescreen-enabled: true !default;
 // 1344px container + 4rem
 $fullhd: 1344px + (2 * $gap) !default;
 $fullhd-enabled: true !default;
-
-
-$spacing-shortcuts: ("margin": "mg");
-$spacing-horizontal: "h";
-$spacing-vertical: null;
-$spacing-values: ("small": 10px, "medium": 30px, "large": 60px);
-
-$x-padding: 12px;
