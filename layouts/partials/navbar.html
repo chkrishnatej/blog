@@ -1,18 +1,28 @@
-<nav class="navbar is-dark">
-    <div class="container">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-          {{ $.Site.Title }}
-        </a>
-      </div>
-  
-      <div class="navbar-start">
-        <a class="navbar-item" href="/">
-          Home
-        </a>
-        <a class="navbar-item" href="/posts">
-          Posts
-        </a>
+<nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    
+    <!-- logo or branding image on left side -->
+    <div class="navbar-brand">
+      <a class="navbar-item" style="background: url({{ .Site.BaseURL }}images/logo.png) no-repeat center center;
+      background-size: cover;width: 172px" href="/">
+      </a>
+      <div class="navbar-burger"  data-target="navbar-menu">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
-  </nav>
+
+    <!-- children of navbar-menu must be navbar-start and/or navbar-end -->
+    <div class="navbar-menu" id="navbar-menu">
+      <!-- navbar items | right side -->
+      <div class="navbar-end">
+        <a class="navbar-item" href="/blog">Blog</a>
+        <!-- <a class="navbar-item" href="/tags">Tags</a> -->
+        <a class="navbar-item" href="/about">About</a>
+        <a class="navbar-item" href="#">Contact</a>
+      </div>
+
+    </div>
+  </div>
+</nav>
