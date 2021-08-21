@@ -20,9 +20,6 @@ Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ```
-![fcc uml](/fcc.png)
-
-
 
 Lorem markdownum plaga et quam, qui inmedicabile natarum cum auroque caeli.
 Milete sonant  ```neve```, meo fissaque senex, inicit nisi Palladis spem miserum qui
