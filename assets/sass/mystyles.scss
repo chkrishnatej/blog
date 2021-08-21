@@ -1,15 +1,26 @@
 @import "variables";
 
-// Post Content
-article.content {
-    color: $article-content-color;
+body {
+    font-family: "JetBrains Mono", monospace;
+    font-size: $body-font-size;
+    font-weight: 500;
 }
 
-
+.navbar {
+    background-color: #b9ffff;
+}
+// Post Content
+article.content,
+#index {
+    color: $article-content-color;
+}
 
 @media (min-width: $tablet) {
     main {
         padding-inline: 5%;
+    }
+    #index {
+        padding-inline: 10%;
     }
 }
 
