@@ -11,3 +11,7 @@ It is built with Hugo static site generator and uses Bulma CSS.
 - [ ] Add tags and categories for viewing in posts
 - [ ] Use data files to fill in description for tags and categories
 - [ ] Updating post cards with images :rocket:
+
+## Useful Links
+* https://gist.github.com/Rarst/da20cdb3936fc5dcf349b4a5cab06f2f
+* https://gist.github.com/miguelmota/9ae24ecbcc647a0717cdb1b28a8371f9
