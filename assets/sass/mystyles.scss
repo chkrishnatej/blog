@@ -1,14 +1,16 @@
 @import "variables";
 
 body {
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Source Sans Pro", Arial,"Helvetica Neue",Helvetica, sans-serif;
     font-size: $body-font-size;
-    font-weight: 500;
+    font-weight: 400;
 }
 
-.navbar {
-    background-color: #b9ffff;
+pre > code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: $code-size;
 }
+
 // Post Content
 article.content,
 #index {
@@ -19,15 +21,11 @@ article.content,
     main {
         padding-inline: 5%;
     }
-    #index {
-        padding-inline: 10%;
-    }
-}
 
-.sticky {
-    position: -webkit-sticky; // For Safari Browser
-    position: fixed;
-    right: 5%;
+    main.container {
+        padding-right: 12%;
+        padding-left: 12%;
+    }
 }
 
 // Shortcode hint colors
