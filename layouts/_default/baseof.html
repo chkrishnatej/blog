@@ -15,7 +15,11 @@
     {{ $csscustom := resources.Get "sass/mystyles.scss" | resources.ToCSS | resources.Minify }}
     {{ $allcss := slice $csscustom | resources.Concat "/css/vendor.css" | minify | fingerprint "sha512" }}
     <link rel="stylesheet" href="{{ $allcss.RelPermalink }}" integrity="{{ $allcss.Data.Integrity }}">
-    
+
+    <!-- Adding JS -->
+    <script defer type="text/javascript"  src="{{ "/js/myscripts.js" | urlize | relURL }}"></script>
+
+
     <!-- Font Stylesheets -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
